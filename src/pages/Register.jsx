@@ -45,7 +45,7 @@ non-technical events.
 
 <button
 className="register-btn"
-onClick={()=>window.open("https://www.example.com","_blank")}
+onClick={()=>window.open("https://forms.gle/1oukuSaS1iH2NgzW9","_blank")}
 >
 
 Register Now
