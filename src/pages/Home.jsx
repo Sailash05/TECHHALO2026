@@ -69,11 +69,11 @@ return(
 <div className="hero">
 
 <h2 className="college">
-Anna University Regional Campus Tirunelveli
+Anna University Regional Campus-Tirunelveli
 </h2>
 
 <p className="dept">
-Department of Computer Science and Engineering
+  Department of Computer Science and Engineering
 </p>
 
 <p className="presents">
@@ -85,7 +85,8 @@ TECHHALO'26
 </h1>
 
 <p className="event-date">
-📅 March 26, 2026
+  <img src="src/assets/26.png" alt="" width={25} />
+  March 26, 2026
 </p>
 
 {/* Show countdown before event */}

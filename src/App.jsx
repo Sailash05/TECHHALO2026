@@ -3,6 +3,8 @@ import BootScreen from "./pages/BootScreen";
 import Home from "./pages/Home";
 import Events from "./pages/Events";
 import Register from "./pages/Register";
+import CoordinatorsPage from "./pages/coordinators/CoordinatorsPage";
+import AboutPage from "./pages/aboutPage/AboutPage";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/events" element={<Events />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/coordinators" element={<CoordinatorsPage />} />
+        <Route path="/about-us" element={<AboutPage />} />
       </Routes>
 
     </BrowserRouter>

@@ -387,41 +387,35 @@ text-shadow:
 }
 
 .dept{
-
-font-size:18px;
-margin-top:6px;
-
+  font-size:23px;
+  margin-top:6px;
+  color: white;
+  font-weight: bold;
 }
 
 .event-name{
-
-font-family:'Orbitron';
-font-size:80px;
-margin-top:25px;
-
-color:#9ffcff;
-
-text-shadow:
-0 0 8px rgba(0,255,255,0.5);
-
+  font-family:'Orbitron';
+  font-size:80px;
+  margin-top:25px;
+  color:#9ffcff;
+  text-shadow: 0 0 8px rgba(0,255,255,0.5);
 }
 
 .event-date{
-
-font-size:22px;
-margin-top:10px;
-
+  font-size:22px;
+  margin-top:10px;
+}
+.event-date img {
+  margin-right: 10px;
 }
 
 /* Countdown */
 
 .countdown{
-
-display:flex;
-justify-content:center;
-gap:35px;
-margin-top:30px;
-
+  display:flex;
+  justify-content:center;
+  gap:35px;
+  margin-top:30px;
 }
 
 .countdown div{
@@ -763,20 +757,14 @@ cursor:pointer;
 
 }
 .register-container{
-
-width:600px;
-margin:150px auto;
-text-align:center;
-
-background:rgba(0,0,0,0.6);
-
-padding:40px;
-border-radius:12px;
-
-border:1px solid #00ffff;
-
-box-shadow:0 0 20px #00ffff44;
-
+  width:600px;
+  margin:150px auto;
+  text-align:center;
+  background:rgba(0,0,0,0.6);
+  padding:40px;
+  border-radius:12px;
+  border:1px solid #00ffff;
+  box-shadow:0 0 20px #00ffff44;
 }
 
 .register-title{
@@ -876,13 +864,6 @@ padding:20px;
 
 font-size:28px;
 color:#00ffff;
-
-}
-
-.dept{
-
-font-size:18px;
-color:#aaa;
 
 }
 
@@ -1298,10 +1279,6 @@ font-size:42px;
 
 .college{
 font-size:18px;
-}
-
-.dept{
-font-size:14px;
 }
 
 

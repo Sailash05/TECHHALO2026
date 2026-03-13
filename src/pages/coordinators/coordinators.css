@@ -1,0 +1,165 @@
+.coordinators-page{
+
+  padding-top:120px;
+  text-align:center;
+  color:white;
+
+}
+
+
+/* PAGE TITLE */
+
+.page-title{
+
+  font-size:42px;
+
+  color:cyan;
+
+  text-shadow:
+  0 0 4px cyan,
+  0 0 10px cyan;
+
+}
+
+
+/* SECTION TITLE */
+
+.section-title{
+
+  margin-top:60px;
+
+  font-size:28px;
+
+  color:#7ffcff;
+
+  letter-spacing:2px;
+
+}
+
+
+/* LEADERSHIP GRID */
+
+.leadership-grid{
+
+  width:85%;
+
+  margin:40px auto;
+
+  display:grid;
+
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+  gap:25px;
+
+}
+
+
+/* LEADER CARD */
+
+.leader-card{
+
+  background:rgba(0,0,0,0.7);
+
+  border:1px solid cyan;
+
+  border-radius:12px;
+
+  padding:25px;
+
+  box-shadow:0 0 12px rgba(0,255,255,0.3);
+
+  transition:0.3s;
+
+}
+
+
+.leader-card:hover{
+
+  transform:translateY(-5px);
+
+  box-shadow:
+  0 0 10px cyan,
+  0 0 25px cyan,
+  0 0 40px cyan;
+
+}
+
+
+/* LEADER TEXT */
+
+.leader-card h3{
+
+  color:#9ffcff;
+
+  margin-bottom:8px;
+
+}
+
+.leader-role{
+
+  color:#bffcff;
+
+  margin-bottom:6px;
+
+}
+
+.dept{
+
+  color:#aaa;
+
+  font-size:14px;
+
+}
+
+
+/* EXECUTIVE MEMBERS */
+
+.members-list{
+
+  width:85%;
+
+  margin:40px auto;
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:12px;
+
+  justify-content:center;
+
+}
+
+
+/* MEMBER CHIP */
+
+.member-pill{
+
+  padding:10px 16px;
+
+  border:1px solid cyan;
+
+  border-radius:25px;
+
+  background:rgba(0,0,0,0.6);
+
+  color:#bffcff;
+
+  font-size:14px;
+
+  transition:0.3s;
+
+}
+
+
+.member-pill:hover{
+
+  background:cyan;
+
+  color:black;
+
+  box-shadow:
+  0 0 10px cyan,
+  0 0 20px cyan;
+
+}
