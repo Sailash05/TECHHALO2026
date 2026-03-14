@@ -1,62 +1,44 @@
 .college-page {
-
   padding-top:120px;
   color:white;
   font-family:'Orbitron', sans-serif;
-  
 }
 
 .college-container {
-
   width:85%;
   margin:auto;
   text-align:center;
-
 }
 
 /* TITLE */
 
-.college-title {
-
+.page-title {
   font-size:40px;
   color:cyan;
-
   text-shadow:
   0 0 3px cyan,
   0 0 6px cyan;
-
 }
 
 .page-subtitle{
-
-  margin: top 40px;
   color:hsl(195, 27%, 91%);
-
+  font-size:24px;
 }
 
-
-/* NEWSPAPER GRID */
+/* GRID */
 
 .news-grid{
-
   margin-top:50px;
-
   display:grid;
-
   grid-template-columns:2fr 1fr;
-
   grid-template-rows:auto auto;
-
   gap:30px;
-
 }
 
-
-/* CARD STYLE */
+/* CARD */
 
 .college-card{
-  position:relative; /* IMPORTANT */
-  
+  position:relative;
   background:rgba(0,0,0,0.7);
   border:1px solid rgba(0,255,255,0.5);
   border-radius:12px;
@@ -64,36 +46,25 @@
   text-align:left;
 
   box-shadow:0 0 12px rgba(0,255,255,0.2);
-
   transition:all 0.4s ease;
-
   backdrop-filter: blur(0px);
 }
 
-/* GLASSMORPHISM HOVER */
-
 .college-card:hover{
-
   transform:translateY(-6px) scale(1.02);
-
   background:rgba(255,255,255,0.05);
-
   backdrop-filter: blur(12px);
-
   border:1px solid rgba(0,255,255,0.8);
 
   box-shadow:
   0 0 15px cyan,
   0 0 35px rgba(0,255,255,0.6),
   inset 0 0 10px rgba(0,255,255,0.2);
-
 }
+
 .college-card::before{
-
   content:"";
-
   position:absolute;
-
   top:0;
   left:0;
 
@@ -110,75 +81,38 @@
   );
 
   opacity:0;
-
   transition:0.4s;
-
-  pointer-events:none; /* FIX */
+  pointer-events:none;
 }
 
 .college-card:hover::before{
   opacity:1;
 }
-.college-card h2{
 
+.college-card h2{
   color:#7ffcff;
   margin-bottom:15px;
-
 }
 
 .college-card p{
-
   line-height:1.7;
   color:#ddd;
-
 }
 
-.college-card ul{
-
-  padding-left:18px;
-
-}
-
-.college-card li{
-
-  margin-bottom:8px;
-  color:#bffcff;
-
-}
-
-
-/* NEWSPAPER POSITIONS */
+/* GRID POSITIONS */
 
 .main-article{
-
   grid-row:1;
-
 }
 
 .location{
-
   grid-column:2;
-
-}
-
-.departments{
-
-  grid-column:2;
-
 }
 
 .techhalo{
   grid-row:2;
-  grid-column:1;
-
+  grid-column:1 / span 2;
 }
-
-.page-subtitle {
-  color: white;
-  font-size: 24px;
-}
-
-
 
 /* ===================== */
 /* TABLET */
@@ -217,7 +151,6 @@
 
 }
 
-
 /* ===================== */
 /* MOBILE */
 /* ===================== */
@@ -226,7 +159,6 @@
 
 .college-page{
     padding-top:90px;
-    /* padding-bottom:80px; */
 }
 
 .page-title{
@@ -242,11 +174,8 @@
     gap:18px;
 }
 
-/* reset grid placements for mobile */
-
 .main-article,
 .location,
-.departments,
 .techhalo{
     grid-column:auto;
     grid-row:auto;
@@ -264,12 +193,7 @@
     font-size:13px;
 }
 
-.college-card li{
-    font-size:13px;
 }
-
-}
-
 
 /* ===================== */
 /* SMALL PHONES */

@@ -100,17 +100,31 @@ Tech Society Coordinators
 
     <div className="developers-grid">
 
-    <div className="developer-card">
-    <h2>Jeya Subiksha R</h2>
-    <p className="dev-role">Developer</p>
-    <p>II CSE</p>
-    </div>
+        <div className="developer-card">
+            <h2>Madhumitha S</h2>
+            <p className="dev-role">Team Lead</p>
+            <p>IV CSE</p>
+        </div>
 
-    <div className="developer-card">
-    <h2>Gomathi</h2>
-    <p className="dev-role">Developer</p>
-    <p>II CSE</p>
-    </div>
+        <div className="developer-card">
+            <h2>Jaya Subiksha R</h2>
+            <p className="dev-role">Developer</p>
+            <p>II CSE</p>
+        </div>
+
+        <div className="developer-card">
+            <h2>Gomathi Natchiar D</h2>
+            <p className="dev-role">Developer</p>
+            <p>II CSE</p>
+        </div>
+
+        <div className="developer-card">
+            <h2>Sailash S</h2>
+            <p className="dev-role">Developer & Deployment</p>
+            <p>III CSE</p>
+        </div>
+
+        
 
     </div>
 
