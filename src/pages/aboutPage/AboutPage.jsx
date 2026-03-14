@@ -15,19 +15,21 @@ const AboutPage = () => {
 
       <div className="college-container">
 
-        <h1 className="college-title">
-          Anna University Regional Campus – Tirunelveli
+        
+        <h1 className="page-title">
+            Anna University Regional Campus – Tirunelveli
         </h1>
-
-        <p className="college-subtitle">
-          A Constituent College of Anna University, Chennai
+<br />
+<br />
+        <p className="page-subtitle">
+            A Constituent College of Anna University, Chennai
         </p>
-
+        
 
         {/* NEWSPAPER GRID */}
 
         <div className="news-grid">
-
+          
           {/* BIG ARTICLE */}
 
           <div className="college-card main-article">
@@ -35,17 +37,19 @@ const AboutPage = () => {
             <h2>About the College</h2>
 
             <p>
-              Anna University Regional Campus Tirunelveli (AURCT) is one of the
-              prestigious constituent colleges of Anna University, Chennai.
-              The campus was established to provide quality technical education
-              to students in the southern districts of Tamil Nadu.
+              Anna University Regional Campus – Tirunelveli (AURCT) is one of the
+constituent campuses of Anna University, Chennai. Established in 2007,
+the campus aims to provide quality technical education to students
+from the southern districts of Tamil Nadu.
+<br />
+<br />
+The institution offers undergraduate and postgraduate programs in
+various engineering disciplines and focuses on innovation, research,
+and technical excellence. With modern laboratories, experienced faculty,
+and a vibrant academic environment, the campus encourages students
+to develop strong technical and professional skills.
             </p>
 
-            <p>
-              The institution offers undergraduate and postgraduate programs
-              in various engineering disciplines and focuses on innovation,
-              research, and technical excellence.
-            </p>
 
           </div>
 
@@ -82,17 +86,27 @@ const AboutPage = () => {
           </div>
 
 
-          {/* TECHHALO */}
+          {/* TECHSOCIETY */}
 
           <div className="college-card techhalo">
 
-            <h2>About TECHHALO</h2>
+            <h2>About TECH SOCIETY</h2>
 
             <p>
-              TECHHALO is a technical symposium organized by the
-              Department of Computer Science and Engineering.
-              The event encourages students to showcase innovation,
-              participate in competitions, and explore modern technologies.
+              Tech Society is a student-driven technical community in
+Anna University Regional Campus – Tirunelveli.
+
+The society is created to help students build their technical
+knowledge, improve problem-solving skills, and explore modern
+technologies beyond the classroom.
+
+It organizes technical events, workshops, coding sessions,
+and symposium activities that encourage creativity,
+innovation, and collaboration among students.
+
+The Tech Society is maintained and coordinated by
+passionate students who aim to create opportunities
+for learning, leadership, and technical growth.
             </p>
 
           </div>

@@ -5,7 +5,7 @@ import Events from "./pages/Events";
 import Register from "./pages/Register";
 import CoordinatorsPage from "./pages/coordinators/CoordinatorsPage";
 import AboutPage from "./pages/aboutPage/AboutPage";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +18,8 @@ function App() {
         <Route path="/coordinators" element={<CoordinatorsPage />} />
         <Route path="/about-us" element={<AboutPage />} />
       </Routes>
+
+      <Footer/>
 
     </BrowserRouter>
   );

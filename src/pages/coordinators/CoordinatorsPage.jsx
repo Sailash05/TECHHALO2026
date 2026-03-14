@@ -6,115 +6,125 @@ import SpaceBackground from "../../components/SpaceBackground";
 
 const CoordinatorsPage = () => {
 
-  const leadership = [
-    { name: "Abilash Kannan S J", role: "President" },
-    { name: "Siva Sakthi C", role: "Vice President" },
-    { name: "Franisha Merlin F V", role: "Secretary" },
-    { name: "Karishma S", role: "Joint Secretary" },
-    { name: "Muthu Selvi S", role: "Treasurer" },
-    { name: "Siva Ranjani K", role: "Joint Treasurer" }
-  ];
+const leadership = [
+{ name: "Abilash Kannan S J", role: "President", dept:"CSE" },
+{ name: "Siva Sakthi C", role: "Vice President", dept:"CSE" },
+{ name: "Franisha Merlin F V", role: "Secretary", dept:"CSE" },
+{ name: "Karishma S", role: "Joint Secretary", dept:"CSE" },
+{ name: "Muthu Selvi S", role: "Treasurer", dept:"CSE" },
+{ name: "Siva Ranjani K", role: "Joint Treasurer", dept:"CSE" }
+];
 
+const executiveMembers = {
 
-  const executiveMembers = [
-    "Abinaya S",
-    "Oviya S",
-    "Nathiya V",
-    "Angelina Celine S",
-    "Janani T",
-    "Harishragavan M",
-    "Anns Linisha L",
-    "Priya M",
-    "Jaya Subiksha R",
-    "Aravind R",
-    "Sree Nidhi M",
-    "Lavanya A",
-    "Arul Selvi B",
-    "Silviya Grace S",
-    "Madhan Kumar S",
-    "Buvana S",
-    "Sylvia Gajadas D",
-    "Mariarajan Rohith K",
-    "Esakkiammal M",
-    "Vinodha P",
-    "Palraj J",
-    "Harishkumar V",
-    "Anshi A",
-    "Adhilakshmi S",
-    "Indra E",
-    "Esakki Muthu S",
-    "Asha G",
-    "Lelin Roch",
-    "Lavanya M",
-    "Mahalakshmi N",
-    "Merlin S",
-    "Martina P",
-    "Swetha R"
-  ];
+"IV Year":[
+{ name:"Abinaya S", dept:"CSE" },
+{ name:"Oviya S", dept:"CSE" },
+{ name:"Angelina Celine S", dept:"CSE" },
+{ name:"Janani T", dept:"CSE" },
+{ name:"Anns Linisha L", dept:"CSE" },
+{ name:"Priya M", dept:"CSE" },
+{ name:"Aravind R", dept:"CSE" },
+{ name:"Sree Nidhi M", dept:"CSE" },
+{ name:"Buvana S", dept:"CSE" },
+{ name:"Sylvia Gajadas D", dept:"CSE" },
+{ name:"Esakkiammal M", dept:"CSE" },
+{ name:"Vinodha P", dept:"CSE" },
+{ name:"Harishkumar V", dept:"CSE" },
+{ name:"Indra E", dept:"CSE" },
+{ name:"Lelin Roch", dept:"CSE" },
+{ name:"Merlin S", dept:"CSE" }
+],
 
-  return (
-    <div className="coordinators-page">
+"III Year":[
+{ name:"Nathiya V", dept:"CSE" },
+{ name:"Anshi A", dept:"CSE" },
+{ name:"Esakki Muthu S", dept:"CSE" },
+{ name:"Lavanya M", dept:"CSE" },
+{ name:"Martina P", dept:"CSE" }
+],
 
-      <Navbar />
-      <CursorTrail />
-      <SpaceBackground />
+"II Year":[
+{ name:"Jaya Subiksha R", dept:"CSE" },
+{ name:"Lavanya A", dept:"CSE" },
+{ name:"Harishragavan M", dept:"CSE" },
+{ name:"Madhan Kumar S", dept:"CSE" },
+{ name:"Mariarajan Rohith K", dept:"CSE" },
+{ name:"Palraj J", dept:"CSE" },
+{ name:"Adhilakshmi S", dept:"AI&DS" },
+{ name:"Asha G", dept:"AI&DS" },
+{ name:"Mahalakshmi N", dept:"AI&DS" },
+{ name:"Swetha R", dept:"AI&DS" }
+]
 
-      <h1 className="page-title">
-        Tech Society Coordinators
-      </h1>
+};
 
+return (
 
-      {/* Leadership */}
+<div className="coordinators-page">
 
-      <h2 className="section-title">
-        Leadership
-      </h2>
+<Navbar/>
+<CursorTrail/>
+<SpaceBackground/>
 
-      <div className="coordinators-grid">
+<h1 className="page-title">
+Tech Society Coordinators
+</h1>
 
-        {leadership.map((member, index) => (
-          <div key={index} className="coordinator-card">
+{/* Leadership */}
 
-            <h2>{member.name}</h2>
+<h2 className="section-title">Leadership</h2>
 
-            <p className="role">
-              {member.role}
-            </p>
+<div className="coordinators-grid">
 
-            <p>CSE</p>
+{leadership.map((member,index)=>(
 
-          </div>
-        ))}
+<div key={index} className="coordinator-card">
 
-      </div>
+<h2>{member.name}</h2>
+<p className="role">{member.role}</p>
+<p>{member.dept}</p>
 
+</div>
 
-      {/* Executive Members */}
+))}
 
-      <h2 className="section-title">
-        Executive Members
-      </h2>
+</div>
 
-      <div className="coordinators-grid">
+{/* Executive Members */}
 
-        {executiveMembers.map((name, index) => (
-          <div key={index} className="coordinator-card">
+<h2 className="section-title">Executive Members</h2>
 
-            <h2>{name}</h2>
+{Object.entries(executiveMembers).map(([year,members]) => (
 
-            <p className="role">
-              Executive Member
-            </p>
+<div key={year} className="dept-box">
 
-            <p>CSE</p>
+<h3 className="dept-title">{year}</h3>
 
-          </div>
-        ))}
+<div className="coordinators-grid">
 
-      </div>
+{members.map((member,index)=>(
 
-    </div>
-  );
+<div key={index} className="coordinator-card">
+
+<h2>{member.name}</h2>
+<p className="role">Executive Member</p>
+<p>{member.dept}</p>
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+))}
+
+</div>
+
+);
+
 };
 
 export default CoordinatorsPage;

@@ -12,9 +12,9 @@ const navigate = useNavigate();
 
 const messages = [
 "INITIALIZING TECHHELLO SYSTEM...",
-"Booting AI Nexus",
+"Connecting to Tech Society",
 "Loading Event Modules",
-"Preparing Interface"
+"..........."
 ];
 
 useEffect(()=>{

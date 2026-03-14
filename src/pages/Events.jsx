@@ -1,80 +1,204 @@
 import { useState } from "react";
-import SpaceBackground from "../components/SpaceBackground";
-import CursorTrail from "../components/CursorTrail";
 import Navbar from "../components/Navbar";
-import EventPopup from "../components/EventPopup";
-import { eventsData } from "../constants/eventData";
+import CursorTrail from "../components/CursorTrail";
+import SpaceBackground from "../components/SpaceBackground";
 
-export default function Events(){
+export default function EventsPage(){
 
-const [showInstructions, setShowInstructions] = useState(false);
-const [selectedInstructions, setSelectedInstructions] = useState([]);
-const [submissionLink, setSubmissionLink] = useState(null);
+const [selectedEvent,setSelectedEvent] = useState(null)
 
-const openInstructions = (instructions, link) => {
-  setSelectedInstructions(instructions);
-  setSubmissionLink(link);
-  setShowInstructions(true);
-};
+const technical = [
+{
+name:"Brain & Buzz",
+details:[
+"Team Size: 2 Members",
+"Riddle Rush – Solve logical riddles",
+"AI Image Decode – Identify objects",
+"Truth Tracker – Find correct statements"
+]
+},
+{
+name:"Paper Presentation",
+details:[
+"Team Size: 2 Members",
+"Present innovative ideas",
+"PPT allowed",
+"Judged on innovation"
+]
+},
+{
+name:"Prompt Engineering",
+details:[
+"Team Size: Individual",
+"Create effective AI prompts",
+"Generate outputs using AI tools",
+"Judged on creativity"
+]
+},
+{
+name:"Code Debugging",
+details:[
+"Team Size: Individual",
+"Fix bugs in programs",
+"Languages: C, Python, Java",
+"Judged by speed"
+]
+}
+]
 
-const closeInstructions = () => {
-  setShowInstructions(false);
-};
+const nonTechnical = [
+{
+name:"Bioscope",
+details:[
+"Team Size: 2 Members",
+"Identify movies from clues",
+"Entertainment knowledge",
+"Fastest answers win"
+]
+},
+{
+name:"Connexion",
+details:[
+"Team Size: 2 Members",
+"Find connection between clues",
+"Logical thinking required",
+"Multiple rounds"
+]
+}
+]
+
+const submission = [
+{
+name:"Photography / Videography",
+details:[
+"Team Size: Individual / Team",
+"Capture photos based on theme",
+"Focus on originality",
+"Judged on creativity"
+]
+},
+{
+name:"Poster Making",
+details:[
+"Team Size: Individual",
+"Create attractive posters",
+"Express ideas visually",
+"Judged on creativity"
+]
+}
+]
 
 return(
 
 <div className="events-page">
 
+<Navbar/>
 <CursorTrail/>
 <SpaceBackground/>
 
-<Navbar />
+{/* TECHNICAL */}
 
-{eventsData.map((section, index)=>(
+<h1 className="event-section-title">TECHNICAL EVENTS</h1>
 
-  <div key={index}>
+<div className="events-grid">
 
-  <h1 className="event-section-title">{section.section}</h1>
+{technical.map((event,index)=>(
 
-  <div className="events-grid">
+<div key={index} className="event-card">
 
-  {section.events.map((event, i)=>(
+<h2>{event.name}</h2>
 
-    <div className="event-card" key={i}>
+<button
+className="instruction-btn"
+onClick={()=>setSelectedEvent(event)}
 
-    <h2>{event.title}</h2>
+>
 
-    <p className="team">Team Size: {event.team}</p>
+Instructions </button>
 
-    <ul>
-      {event.points.map((point, j)=>(
-        <li key={j}>{point}</li>
-      ))}
-    </ul>
-
-    <button
-      className="instruction-btn"
-      onClick={() => openInstructions(event.instructions, event.submissionLink)}
-    >
-      Instructions
-    </button>
-
-    </div>
-
-  ))}
-
-  </div>
-
-  </div>
-
+</div>
 ))}
 
-{showInstructions && (
-  <EventPopup
-    instructions={selectedInstructions}
-    submissionLink={submissionLink}
-    closePopup={closeInstructions}
-  />
+</div>
+
+{/* NON TECHNICAL */}
+
+<h1 className="event-section-title">NON TECHNICAL EVENTS</h1>
+
+<div className="events-grid">
+
+{nonTechnical.map((event,index)=>(
+
+<div key={index} className="event-card">
+
+<h2>{event.name}</h2>
+
+<button
+className="instruction-btn"
+onClick={()=>setSelectedEvent(event)}
+
+>
+
+Instructions </button>
+
+</div>
+))}
+
+</div>
+
+{/* SUBMISSION */}
+
+<h1 className="event-section-title">SUBMISSION EVENTS</h1>
+
+<div className="events-grid">
+
+{submission.map((event,index)=>(
+
+<div key={index} className="event-card">
+
+<h2>{event.name}</h2>
+
+<button
+className="instruction-btn"
+onClick={()=>setSelectedEvent(event)}
+
+>
+
+Instructions </button>
+
+</div>
+))}
+
+</div>
+
+{/* POPUP */}
+
+{selectedEvent && (
+
+<div className="popup-overlay">
+
+<div className="popup">
+
+<h2>{selectedEvent.name}</h2>
+
+<ul>
+{selectedEvent.details.map((item,i)=>(
+<li key={i}>{item}</li>
+))}
+</ul>
+
+<button
+className="close-btn"
+onClick={()=>setSelectedEvent(null)}
+
+>
+
+Close </button>
+
+</div>
+
+</div>
+
 )}
 
 </div>

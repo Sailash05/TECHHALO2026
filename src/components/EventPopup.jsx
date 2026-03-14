@@ -1,39 +1,46 @@
 export default function EventPopup({ instructions, submissionLink, closePopup }) {
 
-  return (
+return (
 
-    <div className="popup-overlay">
+<div className="popup-overlay" onClick={closePopup}>
 
-      <div className="popup">
+<div className="popup" onClick={(e)=>e.stopPropagation()}>
 
-        <h2>Event Instructions</h2>
+<h2 className="popup-title">Event Instructions</h2>
 
-        <ul>
-          {instructions.map((ins, index) => (
-            <li key={index}>{ins}</li>
-          ))}
-        </ul>
+<div className="popup-divider"></div>
 
-        {submissionLink && (
-          <a
-            href={submissionLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="submit-btn">
-              Submit Your Work
-            </button>
-          </a>
-        )}
+<ul className="popup-list">
+{instructions.map((ins, index) => (
+<li key={index}>{ins}</li>
+))}
+</ul>
 
-        <button class='mybtn' onClick={closePopup}>
-          Close
-        </button>
+{submissionLink && (
 
-      </div>
+<a
+href={submissionLink}
+target="_blank"
+rel="noopener noreferrer"
 
-    </div>
+>
 
-  );
+<button className="submit-btn">
+Submit Your Work
+</button>
+
+</a>
+
+)}
+
+<button className="close-btn" onClick={closePopup}>
+Close
+</button>
+
+</div>
+
+</div>
+
+);
 
 }

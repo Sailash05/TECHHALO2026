@@ -69,15 +69,15 @@ return(
 <div className="hero">
 
 <h2 className="college">
-Anna University Regional Campus-Tirunelveli
+  Anna University Regional Campus-Tirunelveli
 </h2>
-
-<p className="dept">
-  Department of Computer Science and Engineering
-</p>
+<br />
 
 <p className="presents">
-PRESENTS
+Department of Computer Science and Engineering
+<br />
+<br />
+TECH SOCIETY PRESENTS
 </p>
 
 <h1 className="event-name">

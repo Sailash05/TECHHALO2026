@@ -1,165 +1,127 @@
 .coordinators-page{
-
-  padding-top:120px;
-  text-align:center;
-  color:white;
-
+padding-top:120px;
+text-align:center;
+color:white;
 }
-
-
-/* PAGE TITLE */
 
 .page-title{
-
-  font-size:42px;
-
-  color:cyan;
-
-  text-shadow:
-  0 0 4px cyan,
-  0 0 10px cyan;
-
+font-size:42px;
+color:cyan;
+text-shadow:
+0 0 4px cyan,
+0 0 10px cyan;
 }
-
-
-/* SECTION TITLE */
 
 .section-title{
+margin-top:60px;
+font-size:28px;
+color:#7ffcff;
+letter-spacing:2px;
+}
 
-  margin-top:60px;
+/* GRID */
 
-  font-size:28px;
+.coordinators-grid{
+width:85%;
+margin:40px auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
 
-  color:#7ffcff;
+/* CARD */
+.coordinator-card{
 
-  letter-spacing:2px;
+background:rgba(0,0,0,0.7);
+
+border:1px solid cyan;
+
+border-radius:14px;
+
+padding:28px;
+
+text-align:center;
+
+transition:0.35s ease;
+
+position:relative;
+
+overflow:hidden;
+
+box-shadow:0 0 10px rgba(0,255,255,0.3);
+
+}
+.coordinator-card:hover{
+
+background:rgba(62, 243, 236, 0.782);
+
+backdrop-filter:blur(12px);
+
+transform:translateY(-8px) scale(1.03);
+
+border:1px solid rgba(15, 196, 196, 0.7);
+
+box-shadow:
+0 0 10px #00ffff,
+0 0 25px #00ffff,
+0 0 45px rgba(0,255,255,0.7);
+
+}
+.coordinator-card:hover{
+
+background:rgba(57, 151, 169, 0.827);
+
+backdrop-filter:blur(12px);
+
+transform:translateY(-8px) scale(1.03);
+
+border:1px solid rgba(100, 221, 221, 0.7);
+
+box-shadow:
+0 0 10px #00ffff,
+0 0 25px #00ffff,
+0 0 45px rgba(0,255,255,0.7);
+
+}
+.coordinator-card:hover .role{
+
+color:#bffcff;
 
 }
 
 
-/* LEADERSHIP GRID */
 
-.leadership-grid{
-
-  width:85%;
-
-  margin:40px auto;
-
-  display:grid;
-
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
-  gap:25px;
-
+.coordinator-card h2{
+color:#9ffcff;
+margin-bottom:8px;
+font-size:20px;
 }
 
-
-/* LEADER CARD */
-
-.leader-card{
-
-  background:rgba(0,0,0,0.7);
-
-  border:1px solid cyan;
-
-  border-radius:12px;
-
-  padding:25px;
-
-  box-shadow:0 0 12px rgba(0,255,255,0.3);
-
-  transition:0.3s;
-
-}
-
-
-.leader-card:hover{
-
-  transform:translateY(-5px);
-
-  box-shadow:
-  0 0 10px cyan,
-  0 0 25px cyan,
-  0 0 40px cyan;
-
-}
-
-
-/* LEADER TEXT */
-
-.leader-card h3{
-
-  color:#9ffcff;
-
-  margin-bottom:8px;
-
-}
-
-.leader-role{
-
-  color:#bffcff;
-
-  margin-bottom:6px;
-
+.role{
+color:#bffcff;
+margin-bottom:6px;
 }
 
 .dept{
-
-  color:#aaa;
-
-  font-size:14px;
-
+color:#aaa;
+font-size:14px;
 }
 
+/* YEAR BOX */
 
-/* EXECUTIVE MEMBERS */
-
-.members-list{
-
-  width:85%;
-
-  margin:40px auto;
-
-  display:flex;
-
-  flex-wrap:wrap;
-
-  gap:12px;
-
-  justify-content:center;
-
+.dept-box{
+width:85%;
+margin:40px auto;
+padding:25px;
+border:1px solid cyan;
+border-radius:12px;
+background:rgba(0,0,0,0.6);
+box-shadow:0 0 12px rgba(0,255,255,0.25);
 }
 
-
-/* MEMBER CHIP */
-
-.member-pill{
-
-  padding:10px 16px;
-
-  border:1px solid cyan;
-
-  border-radius:25px;
-
-  background:rgba(0,0,0,0.6);
-
-  color:#bffcff;
-
-  font-size:14px;
-
-  transition:0.3s;
-
-}
-
-
-.member-pill:hover{
-
-  background:cyan;
-
-  color:black;
-
-  box-shadow:
-  0 0 10px cyan,
-  0 0 20px cyan;
-
+.dept-title{
+font-size:24px;
+color:#7ffcff;
+margin-bottom:20px;
+letter-spacing:2px;
 }
