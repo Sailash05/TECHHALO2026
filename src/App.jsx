@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BootScreen from "./pages/BootScreen";
-import Home from "./pages/Home";
-import Events from "./pages/Events";
-import Register from "./pages/Register";
+import Home from "./pages/homePage/Home";
+import Events from "./pages/eventPage/Events";
+import Register from "./pages/registerPage/Register";
 import CoordinatorsPage from "./pages/coordinators/CoordinatorsPage";
 import AboutPage from "./pages/aboutPage/AboutPage";
 import Footer from "./components/Footer";
@@ -19,7 +19,7 @@ function App() {
         <Route path="/about-us" element={<AboutPage />} />
       </Routes>
 
-      <Footer/>
+      {/* <Footer/> */}
 
     </BrowserRouter>
   );

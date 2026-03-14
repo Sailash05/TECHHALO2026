@@ -6,24 +6,28 @@ return(
 
 <h2 className="footer-title">TECHHALO'26</h2>
 
-<div className="contact-cards">
+<div className="footer-info">
 
-<div className="contact-card">
-<h3>Abilash Kannan</h3>
-<p>President</p>
-<a href="tel:+91 95140 27129">📞 +91 95140 27129</a>
+<p className="footer-address">
+Anna University Regional Campus-Tirunelveli <br/>
+Tirunelveli - 627007, Tamil Nadu, India
+</p>
+
+<p className="footer-website">
+🌐 <a href="https://auttvl.ac.in" target="_blank" rel="noreferrer">
+auttvl.ac.in
+</a>
+</p>
+
+<p className="footer-contact">
+For any queries call <strong>Abilash Kannan</strong> (President) <br/>
+📞 <a href="tel:+919876543210">+91 9514027129</a>
+</p>
+
 </div>
 
-<div className="contact-card">
-<h3>Franisha Merlin</h3>
-<p>Secretary</p>
-<a href="tel:+91 94876 90171">📞+91 94876 90171</a>
-</div>
-
-</div>
-
-<p className="footer-location">
-Anna University Regional Campus, Tirunelveli
+<p className="footer-credit">
+© 2026 TECHHALO. Developed by CSE Students.
 </p>
 
 </footer>

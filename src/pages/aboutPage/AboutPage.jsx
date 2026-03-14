@@ -3,6 +3,7 @@ import './aboutPage.css';
 
 import CursorTrail from "../../components/CursorTrail";
 import SpaceBackground from "../../components/SpaceBackground";
+import Footer from '../../components/Footer';
 
 const AboutPage = () => {
 
@@ -65,6 +66,25 @@ to develop strong technical and professional skills.
               peaceful learning environment with modern laboratories,
               libraries, and academic facilities.
             </p>
+            <div style={{ textAlign: "center", marginTop: "10px" }}>
+  <a
+    href="https://maps.app.goo.gl/hAeuJFQn73yZ4MS26"
+    target="_blank"
+    rel="noreferrer"
+    style={{
+      display: "inline-block",
+      padding: "8px 18px",
+      color: "cyan",
+      border: "1px solid cyan",
+      borderRadius: "6px",
+      textDecoration: "none",
+      fontSize: "14px",
+      boxShadow: "0 0 10px rgba(0,255,255,0.4)"
+    }}
+  >
+    View Location
+  </a>
+</div>
 
           </div>
 
@@ -77,10 +97,10 @@ to develop strong technical and professional skills.
 
             <ul>
               <li>Computer Science and Engineering</li>
+              <li>Artificial Intelligence and Data Science</li>
               <li>Electronics and Communication Engineering</li>
+              <li>Geoinformatics Engineering</li>
               <li>Mechanical Engineering</li>
-              <li>Civil Engineering</li>
-              <li>Electrical and Electronics Engineering</li>
             </ul>
 
           </div>
@@ -114,6 +134,8 @@ for learning, leadership, and technical growth.
         </div>
 
       </div>
+
+      <Footer />
 
     </div>
   );
