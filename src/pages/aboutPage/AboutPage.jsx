@@ -3,6 +3,7 @@ import './aboutPage.css';
 
 import CursorTrail from "../../components/CursorTrail";
 import SpaceBackground from "../../components/SpaceBackground";
+import Footer from '../../components/Footer';
 
 const AboutPage = () => {
 
@@ -15,19 +16,21 @@ const AboutPage = () => {
 
       <div className="college-container">
 
-        <h1 className="college-title">
-          Anna University Regional Campus – Tirunelveli
+        
+        <h1 className="page-title">
+            Anna University Regional Campus – Tirunelveli
         </h1>
-
-        <p className="college-subtitle">
-          A Constituent College of Anna University, Chennai
+<br />
+<br />
+        <p className="page-subtitle">
+            A Constituent College of Anna University, Chennai
         </p>
-
+        
 
         {/* NEWSPAPER GRID */}
 
         <div className="news-grid">
-
+          
           {/* BIG ARTICLE */}
 
           <div className="college-card main-article">
@@ -35,17 +38,19 @@ const AboutPage = () => {
             <h2>About the College</h2>
 
             <p>
-              Anna University Regional Campus Tirunelveli (AURCT) is one of the
-              prestigious constituent colleges of Anna University, Chennai.
-              The campus was established to provide quality technical education
-              to students in the southern districts of Tamil Nadu.
+              Anna University Regional Campus – Tirunelveli (AURCT) is one of the
+constituent campuses of Anna University, Chennai. Established in 2007,
+the campus aims to provide quality technical education to students
+from the southern districts of Tamil Nadu.
+<br />
+<br />
+The institution offers undergraduate and postgraduate programs in
+various engineering disciplines and focuses on innovation, research,
+and technical excellence. With modern laboratories, experienced faculty,
+and a vibrant academic environment, the campus encourages students
+to develop strong technical and professional skills.
             </p>
 
-            <p>
-              The institution offers undergraduate and postgraduate programs
-              in various engineering disciplines and focuses on innovation,
-              research, and technical excellence.
-            </p>
 
           </div>
 
@@ -61,6 +66,25 @@ const AboutPage = () => {
               peaceful learning environment with modern laboratories,
               libraries, and academic facilities.
             </p>
+            <div style={{ textAlign: "center", marginTop: "10px" }}>
+  <a
+    href="https://maps.app.goo.gl/hAeuJFQn73yZ4MS26"
+    target="_blank"
+    rel="noreferrer"
+    style={{
+      display: "inline-block",
+      padding: "8px 18px",
+      color: "cyan",
+      border: "1px solid cyan",
+      borderRadius: "6px",
+      textDecoration: "none",
+      fontSize: "14px",
+      boxShadow: "0 0 10px rgba(0,255,255,0.4)"
+    }}
+  >
+    View Location
+  </a>
+</div>
 
           </div>
 
@@ -73,26 +97,36 @@ const AboutPage = () => {
 
             <ul>
               <li>Computer Science and Engineering</li>
+              <li>Artificial Intelligence and Data Science</li>
               <li>Electronics and Communication Engineering</li>
+              <li>Geoinformatics Engineering</li>
               <li>Mechanical Engineering</li>
-              <li>Civil Engineering</li>
-              <li>Electrical and Electronics Engineering</li>
             </ul>
 
           </div>
 
 
-          {/* TECHHALO */}
+          {/* TECHSOCIETY */}
 
           <div className="college-card techhalo">
 
-            <h2>About TECHHALO</h2>
+            <h2>About TECH SOCIETY</h2>
 
             <p>
-              TECHHALO is a technical symposium organized by the
-              Department of Computer Science and Engineering.
-              The event encourages students to showcase innovation,
-              participate in competitions, and explore modern technologies.
+              Tech Society is a student-driven technical community in
+Anna University Regional Campus – Tirunelveli.
+
+The society is created to help students build their technical
+knowledge, improve problem-solving skills, and explore modern
+technologies beyond the classroom.
+
+It organizes technical events, workshops, coding sessions,
+and symposium activities that encourage creativity,
+innovation, and collaboration among students.
+
+The Tech Society is maintained and coordinated by
+passionate students who aim to create opportunities
+for learning, leadership, and technical growth.
             </p>
 
           </div>
@@ -100,6 +134,8 @@ const AboutPage = () => {
         </div>
 
       </div>
+
+      <Footer />
 
     </div>
   );
