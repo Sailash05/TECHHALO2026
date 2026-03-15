@@ -14,7 +14,7 @@ const messages = [
 "INITIALIZING TECHHELLO SYSTEM...",
 "Connecting to Tech Society",
 "Loading Event Modules",
-"..........."
+"Access Granted. Entering TechHello."
 ];
 
 useEffect(()=>{

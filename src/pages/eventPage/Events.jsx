@@ -51,6 +51,17 @@ export default function Events(){
                             <button className="instruction-btn" onClick={() => openInstructions(event.instructions, event.submissionLink)} >
                                 Instructions
                             </button>
+                            {
+                                event.applyLink && (
+                                    <button
+                                    style={{marginLeft: '10px'}}
+                                    onClick={() => window.open(event.applyLink, "_blank", "noopener,noreferrer")}
+                                    className="instruction-btn"
+                                    >
+                                    Apply
+                                    </button>
+                                )
+                                }
 
                         </div>
 

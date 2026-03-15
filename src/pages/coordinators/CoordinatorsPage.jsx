@@ -113,7 +113,7 @@ Tech Society Coordinators
         </div>
 
         <div className="developer-card">
-            <h2>Gomathi Natchiar D</h2>
+            <h3>Gomathi Natchiar D</h3>
             <p className="dev-role">Developer</p>
             <p>II CSE</p>
         </div>

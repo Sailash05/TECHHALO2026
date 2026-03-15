@@ -6,16 +6,19 @@
           title: "Brain & Buzz",
           team: "2 Members",
           points: [
-            "Riddle Rush – Solve technical & logical riddles",
-            "AI Image Decode – Identify technical objects",
-            "Truth Tracker – Find correct statements"
+            "Riddle Rush - Solve technical & logical riddles",
+            "AI Image Decode - Identify technical objects",
+            "Truth Tracker - Find correct statements"
           ],
           instructions: [
-            "Each team must contain 2 members.",
-            "Multiple rounds will be conducted.",
-            "Use logical reasoning to solve questions.",
-            "Decision of judges will be final."
-          ]
+            "The Brain and Buzz event duration will be 1 hour.",
+            "Each team must consist of 2 to 3 members.",
+            "The event will have 3 rounds.",
+            "Round 1 and Round 2 will be CBT (Computer-Based Test) rounds.",
+            "Participants selected in Round 1 will qualify for Round 2, and those selected in Round 2 will qualify for Round 3.",
+            "Round 3 will be a buzzer-based round to determine the winners."
+          ],
+          applyLink: 'https://example.com'
         },
         {
           title: "Paper Presentation",
@@ -26,10 +29,12 @@
             "Judged on innovation & clarity"
           ],
           instructions: [
-            "Each team can have 2 members.",
-            "Presentation time will be limited.",
-            "PPT format is allowed.",
-            "Judges will evaluate innovation, clarity and presentation."
+            "Each team must consist of 2 to 3 members.",
+            "The presentation should be prepared using PowerPoint (PPT).",
+            "Each team will be given 5 to 7 minutes to present their paper.",
+            "The total duration of the event will be 1 hour.",
+            "The topic should be related to technology or computer science.",
+            "On-spot registration is not allowed for Paper Presentation."
           ]
         },
         {
@@ -56,10 +61,12 @@
             "Judged by speed"
           ],
           instructions: [
-            "Participants must debug the given program.",
-            "Languages may include C, Python or Java.",
-            "Fastest correct solution wins.",
-            "Internet access may be restricted."
+            "The Debugging event duration will be 1 hour.",
+            "Participants must solve 10 debugging questions within the given time.",
+            "Questions will be available in three programming languages: C, Java, and Python.",
+            "Participants must choose any one programming language to solve the questions.",
+            "The event will have only one round.",
+            "Winners will be selected based on the number of correct answers and completion time."
           ]
         }
       ]

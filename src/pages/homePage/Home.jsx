@@ -6,6 +6,7 @@ import SpaceParallax from "../../components/SpaceParallax";
 import Navbar from "../../components/Navbar";
 import './homePage.css'
 import Footer from "../../components/Footer";
+import logo from '../../assets/logo.jpeg';
 
 export default function Home(){
 
@@ -61,6 +62,8 @@ export default function Home(){
             <h2 className="college">Anna University Regional Campus-Tirunelveli</h2>
             <p className="department">Department of Computer Science and Engineering</p>
             <p className="presents">TECH SOCIETY PRESENTS</p>
+
+            {/* <img src={logo} alt="TechHalo Logo" className="event-logo"/> */}
             <h1 className="event-name">TECHHALO'26</h1>
             <p className="event-date">
                 <img src="src/assets/26.png" alt="" width={25} />
