@@ -100,14 +100,6 @@ color:#9fffff;
 
 }
 
-.navbar{
-display:flex;
-justify-content:center;
-gap:40px;
-padding:20px;
-border-bottom:1px solid cyan;
-}
-
 .title{
 font-size:70px;
 color:cyan;
@@ -226,38 +218,6 @@ margin-top:20px;
 }
 
 
-.navbar{
-display:flex;
-justify-content:center;
-gap:40px;
-margin-top:20px;
-}
-.navbar a{
-
-color:white;
-text-decoration:none;
-font-size:25px;
-padding:8px 18px;
-border:1px solid cyan;
-border-radius:6px;
-
-transition:0.3s;
-
-}
-
-.navbar a:hover{
-
-color:black;
-background:cyan;
-
-box-shadow:
-0 0 10px cyan,
-0 0 20px cyan,
-0 0 40px cyan;
-
-transform:scale(1.05);
-
-}
 body{
 margin:0;
 background:black;
@@ -265,93 +225,7 @@ color:white;
 font-family:'Orbitron',sans-serif;
 text-align:center;
 }
-/* NAVBAR POSITION */
 
-.nav-top{
-
-position:absolute;
-top:30px;
-right:50px;
-
-display:flex;
-gap:35px;
-
-z-index:10;
-
-}
-
-
-/* NAV LINKS */
-/* NAVBAR */
-
-.nav-top{
-
-position:absolute;
-top:25px;
-right:60px;
-
-display:flex;
-gap:35px;
-
-z-index:10;
-
-}
-
-.nav-top a{
-
-position:relative;
-
-text-decoration:none;
-
-font-size:18px;
-
-color:#b7ffff;
-
-transition:0.3s;
-
-}
-
-.nav-top a.active{
-color:#00ffff;
-}
-.nav-top a.active::after{
-width:100%;
-}
-
-.nav-top a:hover{
-color:#00ffff;
-}
-
-.nav-top a::after{
-  content:"";
-  position:absolute;
-  left:0;
-  bottom:-6px;
-  width:100%;
-  height:2px;
-  background:#00ffff;
-
-  transform:scaleX(0);
-  transform-origin:left;
-
-  transition:transform 0.3s ease;
-}
-
-.nav-top a:hover::after{
-  transform:scaleX(1);
-}
-
-.nav-top a.active::after{
-  transform:scaleX(1);
-}
-
-.active-nav{
-color:#00ffff;
-}
-
-.active-nav::after{
-width:100%;
-}
 
 
 /* Hero Section */
@@ -623,24 +497,7 @@ cursor:pointer;
 
 }
 
-@media (max-width:768px){
 
-.nav-top{
-
-right:15px;
-top:15px;
-
-gap:18px;
-
-}
-
-.nav-top a{
-
-font-size:14px;
-
-}
-
-}
 
 
 /* Overlay */
@@ -664,6 +521,7 @@ padding:20px;
 z-index:1000;
 
 animation:fadeIn 0.3s ease;
+overflow: hidden;
 
 }
 
@@ -673,6 +531,7 @@ animation:fadeIn 0.3s ease;
 
 width:520px;
 max-width:100%;
+max-height:90vh;
 
 padding:40px;
 
@@ -694,7 +553,15 @@ text-align:center;
 position:relative;
 
 animation:popupScale 0.35s ease;
+overflow: hidden;
+}
 
+.popup-list{
+max-height:300px;
+overflow-y:auto;
+text-align:left;
+padding-right:10px;
+overflow-x: hidden;
 }
 
 /* Neon edge glow */
@@ -1131,25 +998,6 @@ border-radius:6px;
 
 /* MOBILE RESPONSIVE */
 
-@media (max-width:768px){
-
-/* NAVBAR */
-
-.nav-top{
-
-top:15px;
-right:15px;
-gap:12px;
-flex-wrap:wrap;
-
-}
-
-.nav-top a{
-
-font-size:13px;
-
-}
-
 
 
 
@@ -1203,7 +1051,7 @@ font-size:12px;
 padding:8px 12px;
 }
 
-}
+
 
 
 
@@ -1337,4 +1185,153 @@ padding:8px 12px;
 
 .submit-btn {
   margin-right: 10px;
+}
+
+
+
+
+/* NAVBAR CONTAINER */
+
+.navbar-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:18px 50px;
+
+position:absolute;
+top:0;
+left:0;
+width:100%;
+
+z-index:10;
+}
+
+
+/* LOGO SECTION */
+
+.logo-section{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo-img{
+width:42px;
+height:42px;
+border-radius:50%;
+border:2px solid cyan;
+
+box-shadow:
+0 0 8px cyan,
+0 0 15px cyan;
+
+}
+
+.logo-text{
+font-size:20px;
+color:#00ffff;
+font-weight:600;
+letter-spacing:1px;
+}
+
+
+/* NAV LINKS */
+
+.nav-top{
+display:flex;
+gap:35px;
+}
+
+
+/* LINKS */
+
+.nav-top a{
+
+position:relative;
+text-decoration:none;
+
+font-size:18px;
+
+color:#b7ffff;
+
+transition:0.3s;
+
+}
+
+
+/* ACTIVE LINK */
+
+.nav-top a.active{
+color:#00ffff;
+}
+
+.nav-top a.active::after{
+transform:scaleX(1);
+}
+
+
+/* HOVER EFFECT */
+
+.nav-top a:hover{
+color:#00ffff;
+}
+
+.nav-top a::after{
+
+content:"";
+
+position:absolute;
+
+left:0;
+bottom:-6px;
+
+width:100%;
+height:2px;
+
+background:#00ffff;
+
+transform:scaleX(0);
+transform-origin:left;
+
+transition:transform 0.3s ease;
+
+}
+
+.nav-top a:hover::after{
+transform:scaleX(1);
+}
+
+.nav-top a.active::after{
+transform:scaleX(1);
+}
+
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width:768px){
+
+.navbar-container{
+padding:10px 10px;
+}
+
+.logo-text{
+font-size:10px;
+display: none;
+}
+
+.logo-img{
+width:30px;
+height:30px;
+}
+
+.nav-top{
+gap:8px;
+flex-wrap:wrap;
+}
+
+.nav-top a{
+font-size:11px;
+}
+
 }

@@ -20,9 +20,14 @@ auttvl.ac.in
 </p>
 
 <p className="footer-contact">
-For any queries call <strong>Abilash Kannan</strong> (President) <br/>
-📞 <a href="tel:+919876543210">+91 9514027129</a>
+For any queries call <strong>Abilash Kannan S J</strong> (President) <br/>
+📞 <a href="tel:+919514027129">+91 9514027129</a>
 </p>
+<p className="footer-contact">
+<strong>Franisha Merlin F V</strong> (Secretary) <br/>
+📞 <a href="tel:+916382575585">+91 6382575585</a>
+</p>
+
 
 </div>
 

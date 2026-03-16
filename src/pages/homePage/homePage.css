@@ -1,6 +1,6 @@
 .hero {
     text-align:center;
-    margin-top:140px;
+    margin-top:80px;
     padding:20px;
 }
 
@@ -215,6 +215,76 @@
 
 .event-date{
     font-size:14px;
+}
+
+}
+
+
+
+/* COLLEGE LOGO CONTAINER */
+
+.college-container{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:15px;
+margin-bottom:20px;
+}
+
+
+/* COLLEGE LOGO */
+
+.college-logo{
+
+width:90px;
+height:90px;
+
+border-radius:50%;
+padding:6px;
+
+background:rgba(0,255,255,0.08);
+border:2px solid cyan;
+
+box-shadow:
+0 0 10px cyan,
+0 0 20px rgba(0,255,255,0.7),
+0 0 40px rgba(0,255,255,0.4);
+
+transition:0.4s ease;
+
+animation:logoFloat 4s ease-in-out infinite;
+
+}
+
+
+/* HOVER EFFECT */
+
+.college-logo:hover{
+
+transform:scale(1.12) rotate(3deg);
+
+box-shadow:
+0 0 20px cyan,
+0 0 40px cyan,
+0 0 70px rgba(0,255,255,0.9);
+
+}
+
+
+/* FLOATING ANIMATION */
+
+@keyframes logoFloat{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+100%{
+transform:translateY(0px);
 }
 
 }

@@ -28,14 +28,14 @@ const executiveMembers = {
 { name:"Aravind R", dept:"IV CSE" },
 { name:"Sree Nidhi M", dept:"IV CSE" },
 { name:"Buvana S", dept:"IV CSE" },
-{ name:"Sylvia Gajadas D", dept:"IV CSE" },
+{ name:"Sylvia Glaaris D", dept:"IV CSE" },
 { name:"Esakkiammal M", dept:"IV CSE" },
 { name:"Vinodha P", dept:"IV CSE" },
 { name:"Harishkumar V", dept:"IV CSE" },
 { name:"Indra E", dept:"IV CSE" },
 { name:"Lelin Roch", dept:"IV CSE" },
 { name:"Merlin S", dept:"IV CSE" },
-{ name:"Lelin Roch R", dept:"IV CSE" }
+{ name:"Silviya Grace S", dept:"IV CSE"},
 ],
 
 "III Year":[
@@ -107,6 +107,13 @@ Tech Society Coordinators
         </div>
 
         <div className="developer-card">
+            <h2>Sailash S</h2>
+            <p className="dev-role">Developer & Deployment</p>
+            <p>III CSE</p>
+        </div>
+
+
+        <div className="developer-card">
             <h2>Jaya Subiksha R</h2>
             <p className="dev-role">Developer</p>
             <p>II CSE</p>
@@ -116,12 +123,6 @@ Tech Society Coordinators
             <h3>Gomathi Natchiar D</h3>
             <p className="dev-role">Developer</p>
             <p>II CSE</p>
-        </div>
-
-        <div className="developer-card">
-            <h2>Sailash S</h2>
-            <p className="dev-role">Developer & Deployment</p>
-            <p>III CSE</p>
         </div>
 
         
