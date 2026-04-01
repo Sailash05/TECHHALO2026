@@ -42,6 +42,7 @@ export default function Register(){
                 <p className="register-info">
                     Anna University Regional Campus-Tirunelveli
                     <br/>
+                    <br />
                     Department of Computer Science and Engineering
                 </p>
                 <p className="register-details">
@@ -55,9 +56,9 @@ export default function Register(){
                 </div>
                 <div className="register-meta">
 <p>All participants must fill out and submit the registration form.</p>
-
+<br />
 <p>After submitting the registration form, the Team Leader must visit the official website and apply for the events selected by the team.</p>
-
+<br />
 <p>Only teams whose Team Leader successfully completes the event application through the official website will be eligible to participate in the events with their team.</p>
  </div>
 

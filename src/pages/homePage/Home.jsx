@@ -10,7 +10,7 @@ import logo from '../../assets/clg-logo.jpeg';
 
 export default function Home(){
 
-    const eventDate = new Date("March 26, 2026 09:00:00").getTime();
+    const eventDate = new Date("April 15, 2026 9:00:00").getTime();
 
     const [time,setTime]=useState({
         days:0,
@@ -71,7 +71,7 @@ export default function Home(){
             <h1 className="event-name">TECHHALO'26</h1>
             <p className="event-date">
                 <img src="src/assets/26.png" alt="" width={25} />
-                March 26, 2026
+                April 15, 2026
             </p>
 
             {/* Show countdown before event */}
