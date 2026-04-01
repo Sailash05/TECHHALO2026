@@ -136,13 +136,13 @@
           ],
           instructions: [
             "Photography - Instructions",
-          "This is a submission-based event and photos must be submitted before 24/03/2026 – 11:59 PM.",
-          "Theme for the event: “In Your Vision”.",
+          "This is a submission-based event and photos must be submitted before 14/04/2026 – 11:59 PM.",
+          "Theme : “In Your Vision”.",
           "Participation is individual only. Participants can submit 1 photo only.",
           "Photos must be in JPEG/PNG format with a maximum size of 100 MB.",
           "The submission must be original work, and winners will be selected based on creativity, originality, and quality. ",
           "Videography - Instructions",
-          "This is a submission-based event and videos must be submitted before 24/03/2026 – 11:59 PM.",
+          "This is a submission-based event and videos must be submitted before 14/04/2026 – 11:59 PM.",
           "Theme for the event: “In Your Vision”.",
           "Participation is individual only.",
           "Video duration should be 1–3 minutes and must be in MP4 format (maximum 1 GB).",
@@ -163,7 +163,7 @@
             "Participation is individual, and this is a submission-based event.",
             "Posters can be hand-drawn, and must be clear, creative, and relevant to the theme.",
             "File format: JPG / PDF, and the file name should be Name_College_Dept_Year_PosterEvent.",
-            "Last date for submission: 24/03/2026, and winners will be selected based on creativity, theme relevance, and overall presentation.",
+            "Last date for submission: 14/04/2026, and winners will be selected based on creativity, theme relevance, and overall presentation.",
           ],
           submissionLink: "https://forms.gle/ob8wA8As3VQkdbaV6"
         }

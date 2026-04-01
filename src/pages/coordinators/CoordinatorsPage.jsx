@@ -73,6 +73,22 @@ return (
 Tech Society Coordinators
 </h1>
 
+{/*Staff coordinators*/}
+<h2 className="section-title">Staff Coordinators</h2>
+<div className="coordinators-grid-bearers">
+
+  <div className="coordinator-card">
+    <h2>Dr. E. Golden Julie</h2>
+    <p>CSE Department</p>
+  </div>
+
+  <div className="coordinator-card">
+    <h2>Dr. J. Jesu Vedha Nayahi</h2>
+    <p>CSE Department</p>
+  </div>
+
+</div>
+
 {/* Leadership */}
 
 <h2 className="section-title">Office Bearers</h2>
@@ -94,7 +110,37 @@ Tech Society Coordinators
 </div>
 
 
-    {/* Developers Team */}
+{/* Executive Members */}
+
+<h2 className="section-title">Executive Members</h2>
+
+{Object.entries(executiveMembers).map(([year,members]) => (
+
+<div key={year} className="dept-box">
+
+<h3 className="dept-title">{year}</h3>
+
+<div className="coordinators-grid">
+
+{members.map((member,index)=>(
+
+<div key={index} className="coordinator-card">
+
+<h2>{member.name}</h2>
+{/* <p className="role">Executive Member</p> */}
+<p>{member.dept}</p>
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+))}
+
+{/* Developers Team */}
 
     <h2 className="section-title">Developers Team</h2>
 
@@ -129,37 +175,6 @@ Tech Society Coordinators
 
     </div>
 
-
-
-{/* Executive Members */}
-
-<h2 className="section-title">Executive Members</h2>
-
-{Object.entries(executiveMembers).map(([year,members]) => (
-
-<div key={year} className="dept-box">
-
-<h3 className="dept-title">{year}</h3>
-
-<div className="coordinators-grid">
-
-{members.map((member,index)=>(
-
-<div key={index} className="coordinator-card">
-
-<h2>{member.name}</h2>
-{/* <p className="role">Executive Member</p> */}
-<p>{member.dept}</p>
-
-</div>
-
-))}
-
-</div>
-
-</div>
-
-))}
 
 <Footer />
 </div>
