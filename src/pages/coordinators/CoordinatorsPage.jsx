@@ -72,19 +72,22 @@ return (
 <h1 className="page-title">
 Tech Society Coordinators
 </h1>
-
+<h2 className="section-title">Head of the Department</h2>
+<div className="coordinators-grid-bearers">
+    <div className="coordinator-card">
+       <h2>Dr. C. Akila</h2>
+    </div>
+</div>
 {/*Staff coordinators*/}
 <h2 className="section-title">Staff Coordinators</h2>
 <div className="coordinators-grid-bearers">
 
   <div className="coordinator-card">
     <h2>Dr. E. Golden Julie</h2>
-    <p>CSE Department</p>
   </div>
 
   <div className="coordinator-card">
     <h2>Dr. J. Jesu Vedha Nayahi</h2>
-    <p>CSE Department</p>
   </div>
 
 </div>

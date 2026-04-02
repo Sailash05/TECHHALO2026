@@ -148,7 +148,7 @@
           "Video duration should be 1–3 minutes and must be in MP4 format (maximum 1 GB).",
           "Videos must be original work, and winners will be selected based on creativity, storytelling, and presentation.",
           ],
-          submissionLink: "https://forms.gle/BKCMUNKesBSWG1wL9"
+          submissionLink: "https://forms.gle/4Zn4tQi5a73rrjpm8"
         },
         {
           title: "Poster Making",
@@ -165,7 +165,7 @@
             "File format: JPG / PDF, and the file name should be Name_College_Dept_Year_PosterEvent.",
             "Last date for submission: 14/04/2026, and winners will be selected based on creativity, theme relevance, and overall presentation.",
           ],
-          submissionLink: "https://forms.gle/ob8wA8As3VQkdbaV6"
+          submissionLink: "https://forms.gle/kNfkdSd1LAkNSoqx8"
         }
       ]
     }
