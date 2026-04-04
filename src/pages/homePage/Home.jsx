@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import CursorTrail from "../../components/CursorTrail";
 import SpaceBackground from "../../components/SpaceBackground";
 import SpaceParallax from "../../components/SpaceParallax";
@@ -7,6 +6,7 @@ import Navbar from "../../components/Navbar";
 import './homePage.css'
 import Footer from "../../components/Footer";
 import logo from '../../assets/clg-logo.jpeg';
+import dateImage from '../../assets/26.png';
 
 export default function Home(){
 
@@ -70,7 +70,7 @@ export default function Home(){
 
             <h1 className="event-name">TECHHALO'26</h1>
             <p className="event-date">
-                <img src="src/assets/26.png" alt="" width={25} />
+                <img src={dateImage} alt="" width={25} />
                 April 15, 2026
             </p>
 
