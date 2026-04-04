@@ -32,7 +32,29 @@
 
     overflow:hidden;
 }
+.register-list{
+  margin-top:10px;
+  padding-left:20px;
+  text-align:left;
+}
 
+.register-list li{
+  margin-bottom:10px;
+  color:#ddd;
+  list-style:none;
+  position:relative;
+  padding-left:25px;
+}
+
+/* TICK MARK */
+
+.register-list li::before{
+  content:"✔";
+  position:absolute;
+  left:0;
+  color:cyan;
+  font-weight:bold;
+}
 /* Hover glow */
 .register-container:hover{
     background:rgba(255,255,255,0.05);

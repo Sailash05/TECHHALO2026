@@ -43,7 +43,7 @@ const AboutPage = () => {
               the campus aims to provide quality technical education to students
               from the southern districts of Tamil Nadu.
               <br /><br />
-              The institution offers undergraduate and postgraduate programs in
+              The institution offers undergraduate programs in
               various engineering disciplines and focuses on innovation, research,
               and technical excellence. With modern laboratories, experienced faculty,
               and a vibrant academic environment, the campus encourages students

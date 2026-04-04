@@ -40,27 +40,35 @@ export default function Register(){
                 <h1 className="register-title">TECHHALO'26</h1>
                 <div className="register-divider"></div>
                 <p className="register-info">
-                    Anna University Regional Campus-Tirunelveli
-                    <br/>
-                    <br />
-                    Department of Computer Science and Engineering
-                </p>
-                <p className="register-details">
-                    TECHHALO'26 is a Technical Symposium designed to explore creativity,
-                    innovation, and technical knowledge through various technical and
-                    non-technical events.
-                </p>
-                <div className="register-meta">
-                    <p>Event Date : March 26, 2026</p>
-                    <p>💰 Registration Fee : ₹200 (per head)</p>
-                </div>
-                <div className="register-meta">
-<p>All participants must fill out and submit the registration form.</p>
+Anna University Regional Campus – Tirunelveli  
+<br /><br />
+Department of Computer Science and Engineering
+</p>
+
+<p className="register-details">
+TECHHALO'26 is a Technical Symposium designed to explore creativity,
+innovation, and technical knowledge through various technical and
+non-technical events.
+</p>
+
+<div className="register-meta">
+
+<p><strong>Event Date:</strong> April 15, 2026</p>
+<p><strong>Registration Fee:</strong> ₹200 per head</p>
+
 <br />
-<p>After submitting the registration form, the Team Leader must visit the official website and apply for the events selected by the team.</p>
-<br />
-<p>Only teams whose Team Leader successfully completes the event application through the official website will be eligible to participate in the events with their team.</p>
- </div>
+
+<ul className="register-list">
+
+  <li>All participants must fill out and submit the registration form.</li>
+
+  <li>After submitting the registration form, the Team Leader must visit the official website and apply for the selected events.</li>
+
+  <li>Only teams whose Team Leader successfully completes the event application will be eligible to participate.</li>
+
+</ul>
+
+</div>
 
                 <button className="register-btn" onClick={()=>window.open("https://forms.gle/rCArNAc54fnAbTqj8","_blank")} >
                     Register Now
