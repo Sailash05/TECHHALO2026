@@ -1206,7 +1206,45 @@ width:100%;
 
 z-index:10;
 }
+.menu-icon {
+  display: none;
+}
+/* MOBILE NAVBAR FIX */
+@media (max-width:768px){
 
+  .menu-icon {
+    display: block;
+    z-index: 20;
+  }
+
+  /* Hide menu by default */
+  .nav-top {
+    display: none;   /* ✅ KEY FIX */
+
+    position: absolute;
+    top: 60px;
+    right: 0;
+
+    background: black;
+
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+
+    border-left: 1px solid cyan;
+    box-shadow: -5px 0 15px rgba(0,255,255,0.2);
+  }
+
+  /* Show ONLY when clicked */
+  .nav-top.active {
+    display: flex;
+  }
+
+  .nav-top a {
+    margin: 12px 0;
+    font-size: 14px;
+  }
+}
 
 /* LOGO SECTION */
 
@@ -1334,4 +1372,35 @@ flex-wrap:wrap;
 font-size:11px;
 }
 
+}
+/* ===== MOBILE NAV FIX (FINAL OVERRIDE) ===== */
+@media (max-width:768px){
+
+  .menu-icon {
+    display: block !important;
+    font-size: 28px;
+    color: cyan;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .nav-top {
+    display: none !important;   /* 🔥 FORCE HIDE */
+
+    position: absolute;
+    top: 60px;
+    right: 0;
+
+    background: black;
+    flex-direction: column;
+
+    width: 220px;
+    padding: 20px;
+
+    border-left: 1px solid cyan;
+  }
+
+  .nav-top.active {
+    display: flex !important;   /* 🔥 FORCE SHOW */
+  }
 }
