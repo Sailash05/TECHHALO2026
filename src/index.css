@@ -1124,6 +1124,9 @@ padding:8px 12px;
     font-size:13px;
     color:#ccc;
 }
+.footer-contact span {
+  font-size: 25px;
+}
 
 .footer-contact a{
     color:#00ffff;
@@ -1153,9 +1156,6 @@ padding:8px 12px;
     font-size:12px;
 }
 
-.footer-contact{
-    font-size:12px;
-}
 
 .footer-credit{
     font-size:11px;
@@ -1173,9 +1173,6 @@ padding:8px 12px;
     font-size:11px;
 }
 
-.footer-contact{
-    font-size:11px;
-}
 
 .footer-credit{
     font-size:10px;

@@ -5,7 +5,8 @@ import Events from "./pages/eventPage/Events";
 import Register from "./pages/registerPage/Register";
 import CoordinatorsPage from "./pages/coordinators/CoordinatorsPage";
 import AboutPage from "./pages/aboutPage/AboutPage";
-import Footer from "./components/Footer";
+import SponsersPage from "./pages/sponsorsPage/SponsorsPage";
+
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/register" element={<Register />} />
         <Route path="/coordinators" element={<CoordinatorsPage />} />
+        <Route path="/sponsors" element={<SponsersPage />} />
         <Route path="/about-us" element={<AboutPage />} />
       </Routes>
 

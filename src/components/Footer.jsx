@@ -20,7 +20,7 @@ auttvl.ac.in
 </p>
 
 <p className="footer-contact">
-For any queries call , <strong>Abilash Kannan S J</strong> (President) <br/>
+For any queries call <span>,</span> <strong>Abilash Kannan S J</strong> (President) <br/>
 📞 <a href="tel:+919514027129">+91 9514027129</a>
 </p>
 <p className="footer-contact">
