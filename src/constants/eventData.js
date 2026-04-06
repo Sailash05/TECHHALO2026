@@ -101,7 +101,7 @@
           applyLink: "https://forms.gle/XChD9TpGaVVm4iRq9"
         },
         {
-          title: "Connexion",
+          title: "Connection",
           team: "2 Members",
           points: [
             "Only the Team Leader should fill the event form.",

@@ -36,6 +36,7 @@ const executiveMembers = {
 { name:"Lelin Roch", dept:"IV CSE" },
 { name:"Merlin S", dept:"IV CSE" },
 { name:"Silviya Grace S", dept:"IV CSE"},
+{ name:"Arul Selvi B",dept:"IV CSE"},
 ],
 
 "III Year":[
