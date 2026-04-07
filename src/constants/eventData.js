@@ -54,7 +54,8 @@
             "Selected participants from Round 1 will qualify for Round 2.",
             "In Round 2, participants must recreate the displayed image using prompts.",
             "Winners will be selected based on creativity, prompt accuracy, and similarity to the given image.",
-          ]
+          ],
+          applyLink: "https://forms.gle/BfvB694C3ECAmYjo6"
         },
         {
           title: "Code Debugging",
@@ -71,7 +72,8 @@
             "Participants must choose any one programming language to solve the questions.",
             "The event will have only one round.",
             "Winners will be selected based on the number of correct answers and completion time."
-          ]
+          ],
+          applyLink: "https://forms.gle/RCbCQsUmnMn2TpSf6"
         }
       ]
     },
