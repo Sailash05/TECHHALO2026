@@ -28,6 +28,43 @@ export default function Events(){
             <CursorTrail/>
             <SpaceBackground/>
             <Navbar />
+
+<div className="event-warning">
+
+  <h3>⚠️ IMPORTANT INSTRUCTIONS FOR REGISTRATION</h3>
+
+  <p className="warning-subtitle">
+    The following events will be conducted simultaneously (parallel sessions):
+  </p>
+
+  <ul>
+    <li><strong>Brain & Buzz</strong> / <strong>Paper Presentation</strong></li>
+    <li><strong>Prompt Engineering</strong> / <strong>Code Debugging</strong></li>
+    <li><strong>Bioscope</strong> / <strong>Connection</strong></li>
+  </ul>
+
+  <p className="warning-text">
+    Participants are permitted to register for only one event from each pair.
+  </p>
+
+  <div className="warning-note">
+    ❗ <strong>Note:</strong>
+    <ul>
+      <li>Registration for both events in the same time slot is strictly not allowed.</li>
+      <li>If a participant registers for both events in a pair, only one event will be allotted based on the decision of the event committee.</li>
+    </ul>
+  </div>
+
+  <div className="team-note">
+    👥 <strong>Team Events:</strong>
+    <ul>
+      <li>Each team must consist of two members.</li>
+      <li>Only the team leader should complete the registration form on behalf of the team.</li>
+    </ul>
+  </div>
+
+</div>
+
             {eventsData.map((section, index)=>(
 
                 <div key={index}>

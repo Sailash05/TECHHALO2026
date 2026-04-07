@@ -263,3 +263,114 @@
 }
 
 }
+
+
+
+/* ===================== */
+/* EVENT WARNING (COMBINED) */
+/* ===================== */
+
+.event-warning{
+    width:85%;
+    margin:40px auto 20px auto;
+    padding:25px 30px;
+
+    border-radius:14px;
+    border:1px solid rgba(255, 80, 80, 0.5);
+
+    background:rgba(0, 0, 0, 0.8);
+
+    box-shadow:
+        0 0 10px rgba(255, 80, 80, 0.3),
+        0 0 25px rgba(255, 80, 80, 0.15);
+
+    backdrop-filter: blur(8px);
+
+    animation:fadeIn 1s ease-in-out;
+}
+
+/* HEADING */
+.event-warning h3{
+    color:#ff4d4d;
+    margin-bottom:15px;
+    letter-spacing:2px;
+    text-shadow:
+        0 0 8px #ff4d4d,
+        0 0 18px #ff4d4d;
+}
+
+/* TEXT */
+.event-warning p{
+    margin:10px 0;
+    line-height:1.6;
+}
+
+.warning-text{
+    color:#ffd6d6;
+}
+
+.warning-subtitle{
+    color:#ffb3b3;
+    margin-bottom:10px;
+}
+
+/* LIST */
+.event-warning ul{
+    margin:10px 0 10px 20px;
+    padding-left:10px;
+}
+
+.event-warning li{
+    margin-bottom:6px;
+    list-style:disc;
+}
+
+/* NOTE BLOCK */
+.warning-note{
+    margin-top:15px;
+    padding:12px;
+
+    border-radius:8px;
+
+    background:rgba(255, 80, 80, 0.08);
+    border:1px solid rgba(255, 80, 80, 0.4);
+
+    color:#ffd6d6;
+}
+
+/* TEAM NOTE */
+.team-note{
+    margin-top:15px;
+    padding:12px;
+
+    border-radius:8px;
+
+    background:rgba(0, 255, 255, 0.08);
+    border:1px solid rgba(0, 255, 255, 0.4);
+
+    color:#ccffff;
+}
+
+/* ANIMATION */
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(-10px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* MOBILE */
+@media (max-width:600px){
+    .event-warning{
+        width:92%;
+        padding:20px;
+    }
+
+    .event-warning h3{
+        font-size:16px;
+    }
+}
