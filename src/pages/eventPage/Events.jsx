@@ -28,6 +28,21 @@ export default function Events(){
             <CursorTrail/>
             <SpaceBackground/>
             <Navbar />
+
+<div className="event-warning">
+  <h3>⚠️ Important Notice</h3>
+
+  <ul>
+    <li><strong>Brain & Buzz</strong> and <strong>Paper Presentation</strong> are conducted at the same time.</li>
+    <li><strong>Prompt Engineering</strong> and <strong>Code Debugging</strong> are conducted at the same time.</li>
+    <li><strong>Bioscope</strong> and <strong>Connection</strong> are conducted at the same time.</li>
+  </ul>
+
+  <p className="warning-text">
+    You cannot participate in overlapping events. Please choose your events carefully before applying.
+  </p>
+</div>
+
             {eventsData.map((section, index)=>(
 
                 <div key={index}>

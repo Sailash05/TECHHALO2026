@@ -66,7 +66,11 @@ non-technical events.
 
   <li>Only teams whose Team Leader successfully completes the event application will be eligible to participate.</li>
 
+    <li>Participants must visit the official website and register separately for individual events.</li>
+    
 </ul>
+
+
 
 </div>
 
