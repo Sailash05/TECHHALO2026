@@ -76,7 +76,7 @@ const SponsorsPage = () => {
 
           <button 
             className="sponsor-btn"
-            onClick={() => window.open("https://forms.gle/tGEk5xYDWxwAnbmG8")}
+            onClick={() => window.open("https://forms.gle/hgc1ea7Nd77Xeppb6")}
           >
             Sponsor Now
           </button>
