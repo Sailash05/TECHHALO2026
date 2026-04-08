@@ -55,7 +55,7 @@
             "In Round 2, participants must recreate the displayed image using prompts.",
             "Winners will be selected based on creativity, prompt accuracy, and similarity to the given image.",
           ],
-          applyLink: "https://forms.gle/BfvB694C3ECAmYjo6"
+          applyLink: "https://forms.gle/V7MKTMqjYjP628H88"
         },
         {
           title: "Code Debugging",
