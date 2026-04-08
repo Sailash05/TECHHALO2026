@@ -18,7 +18,7 @@
             "Participants selected in Round 1 will qualify for Round 2, and those selected in Round 2 will qualify for Round 3.",
             "Round 3 will be a buzzer-based round to determine the winners."
           ],
-          applyLink: "https://forms.gle/MFvQHvqtk28ESqmi8"
+          applyLink: "https://forms.gle/wMzW4agbAEhN2kt28"
         },
         {
           title: "Paper Presentation",
@@ -100,7 +100,7 @@
             "Participants will be shortlisted after each level based on their performance. Team size 4 member ",
             "The decision of the judges will be final.",
           ],
-          applyLink: "https://forms.gle/DifgyhdbycYEKsHm6"
+          applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeyBTZav6Rp7bV7CSMOQXl63K-UzhNuf-xqxRM66IwMa6a-Qg/viewform?usp=publish-editor"
         },
         {
           title: "Connection",
@@ -150,7 +150,7 @@
           "Video duration should be 1–3 minutes and must be in MP4 format (maximum 1 GB).",
           "Videos must be original work, and winners will be selected based on creativity, storytelling, and presentation.",
           ],
-          submissionLink: "https://forms.gle/4Zn4tQi5a73rrjpm8"
+          submissionLink: "https://forms.gle/FKchiBQm24tC2ete8"
         },
         {
           title: "Poster Making",
@@ -167,7 +167,7 @@
             "File format: JPG / PDF, and the file name should be Name_College_Dept_Year_PosterEvent.",
             "Last date for submission: 14/04/2026, and winners will be selected based on creativity, theme relevance, and overall presentation.",
           ],
-          submissionLink: "https://forms.gle/kNfkdSd1LAkNSoqx8"
+          submissionLink: "https://forms.gle/DSfSKnRiSsxMH3jQA"
         }
       ]
     }
