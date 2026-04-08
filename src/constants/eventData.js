@@ -73,7 +73,7 @@
             "The event will have only one round.",
             "Winners will be selected based on the number of correct answers and completion time."
           ],
-          applyLink: "https://forms.gle/RCbCQsUmnMn2TpSf6"
+          applyLink: "https://forms.gle/LpnSW9EeJB1MH3oe6"
         }
       ]
     },
