@@ -37,7 +37,7 @@
             "The topic should be related to technology or computer science.",
             "On-spot registration is not allowed for Paper Presentation."
           ],
-          applyLink: "https://forms.gle/y6DA3Ue446h2k4Y97"
+          applyLink: "https://forms.gle/amPmwrwKUV7EC2xQ6"
         },
         {
           title: "Prompt Engineering",
