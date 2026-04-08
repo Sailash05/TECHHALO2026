@@ -74,7 +74,7 @@ non-technical events.
 
 </div>
 
-                <button className="register-btn" onClick={()=>window.open("https://forms.gle/rCArNAc54fnAbTqj8","_blank")} >
+                <button className="register-btn" onClick={()=>window.open("https://forms.gle/akxn31VZ7v4gdfaz6","_blank")} >
                     Register Now
                 </button>
             </div>
