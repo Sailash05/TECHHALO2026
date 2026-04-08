@@ -100,7 +100,7 @@
             "Participants will be shortlisted after each level based on their performance. Team size 4 member ",
             "The decision of the judges will be final.",
           ],
-          applyLink: "https://forms.gle/XChD9TpGaVVm4iRq9"
+          applyLink: "https://forms.gle/DifgyhdbycYEKsHm6"
         },
         {
           title: "Connection",
