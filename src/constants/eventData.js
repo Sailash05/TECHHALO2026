@@ -121,7 +121,7 @@
             "Any form of cheating or malpractice will result in immediate disqualification.",
             "The decision of the judges/organizers will be final.",
           ],
-          applyLink: "https://forms.gle/sqJayRL48rESuDb77"
+          applyLink: "https://forms.gle/QmZ3KabaPxZKSx176"
         }
       ]
     },
