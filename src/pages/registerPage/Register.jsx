@@ -53,7 +53,8 @@ non-technical events.
 
 <div className="register-meta">
 
-<p><strong>Event Date:</strong> April 15, 2026</p>
+<span className="old-date">April 15, 2026</span>
+<span className="new-date">April 16, 2026 9.00 A.M</span>
 <p><strong>Registration Fee:</strong> ₹200 per head</p>
 
 <br />
