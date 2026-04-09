@@ -1401,3 +1401,20 @@ font-size:11px;
     display: flex !important;   /* 🔥 FORCE SHOW */
   }
 }
+.old-date {
+  text-decoration: line-through;
+  text-decoration-color: #ff4d4d;
+  text-decoration-thickness: 4px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-right: 10px;
+  font-size: 20px; /* 🔥 increase here */
+}
+
+.new-date {
+  color: #00ffff;
+  font-weight: 500;
+  opacity: 0.9;
+  text-shadow: 0 0 5px #00ffff;
+  font-size: 25px; /* slightly smaller than old date */
+}
