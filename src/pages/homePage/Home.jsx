@@ -69,10 +69,8 @@ export default function Home(){
             <p className="presents">TECH SOCIETY PRESENTS</p>
 
             <h1 className="event-name">TECHHALO'26</h1>
-            <p className="event-date">
-                <img src={dateImage} alt="" width={25} />
-                April 15, 2026 &nbsp;9:00am
-            </p>
+            <span className="old-date">April 15, 2026</span>
+            <span className="new-date">April 16, 2026 9.00 A.M</span>
 
             {/* Show countdown before event */}
             {!eventStarted && (
