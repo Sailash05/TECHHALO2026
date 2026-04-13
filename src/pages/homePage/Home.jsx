@@ -10,7 +10,7 @@ import dateImage from '../../assets/26.png';
 
 export default function Home(){
 
-    const eventDate = new Date("April 15, 2026 9:00:00").getTime();
+    const eventDate = new Date("April 16, 2026 9:00:00").getTime();
 
     const [time,setTime]=useState({
         days:0,
