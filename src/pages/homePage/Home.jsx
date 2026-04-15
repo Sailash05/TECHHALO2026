@@ -12,7 +12,7 @@ export default function Home(){
     const eventDate = new Date("April 16, 2026 9:00:00").getTime();
 
     // 🔥 CLOSE AT 11:59 PM
-    const deadline = new Date("April 15, 2026 23:59:59").getTime();
+    const deadline = new Date("April 15, 2026 23:55:59").getTime();
 
     const [time,setTime]=useState({
         days:0,
