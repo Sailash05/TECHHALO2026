@@ -1,51 +1,78 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HERO SECTION */
 .hero {
-    text-align:center;
-    margin-top:80px;
-    padding:20px;
+  text-align: center;
+  margin-top: 60px;
+  padding: 16px;
+}
+
+/* COLLEGE CONTAINER */
+.college-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* LOGO */
+.college-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid cyan;
+  box-shadow: 0 0 15px cyan;
 }
 
 /* COLLEGE NAME */
 .college {
-    font-size:43px;
-    color:#00ffff;
-    letter-spacing:2px;
+  font-size: clamp(18px, 4vw, 38px);
+  color: #00ffff;
+  letter-spacing: 1px;
 }
 
 /* DEPARTMENT */
 .department {
-    color:white;
-    font-size:28px;
-    margin-top:10px;
-    font-weight:700;
-    letter-spacing:2px;
-    text-shadow:0 0 8px rgba(0,255,255,0.6);
+  color: white;
+  font-size: clamp(16px, 3.5vw, 26px);
+  margin-top: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 0 0 6px rgba(0, 255, 255, 0.6);
 }
 
 /* PRESENTS */
-.presents{
-    margin-top:30px;
-    letter-spacing:3px;
-    color:#00ffff;
-    font-size:20px;
+.presents {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  color: #00ffff;
+  font-size: clamp(14px, 3vw, 20px);
 }
 
 /* EVENT NAME */
-.event-name{
-    font-size:80px;
-    margin-top:10px;
-    color:#9ffcff;
-    text-shadow:0 0 20px rgba(0,255,255,0.6);
+.event-name {
+  font-size: clamp(36px, 10vw, 80px);
+  margin-top: 10px;
+  color: #9ffcff;
+  text-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
 }
 
 /* DATE */
-.event-date{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:8px;
-    font-size:20px;
-    margin-top:10px;
-    color:#ccc;
+.event-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: clamp(14px, 3vw, 20px);
+  margin-top: 10px;
+  color: #ccc;
 }
 
 /* OLD DATE */
@@ -55,95 +82,115 @@
   text-decoration-thickness: 2px;
   color: #ffffff;
   font-weight: 700;
-  font-size: 20px;
 }
 
 /* NEW DATE */
 .new-date {
   color: #00ffff;
   font-weight: 500;
-  font-size: 18px;
-  text-shadow: 0 0 8px #00ffff;
+  text-shadow: 0 0 6px #00ffff;
 }
 
 /* REGISTRATION STATUS */
 .registration-status {
   margin-top: 12px;
-  font-size: 18px;
+  font-size: clamp(14px, 3vw, 18px);
   font-weight: 600;
 }
 
 .registration-open {
   color: orange;
-  text-shadow: 0 0 8px rgba(255,165,0,0.6);
+  text-shadow: 0 0 6px rgba(255, 165, 0, 0.6);
 }
 
 .registration-closed {
   color: #ff4d4d;
-  font-weight: 1200;
-  text-shadow: 0 0 10px rgba(255,0,0,0.7);
+  font-weight: 800;
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.7);
   animation: blink 1s infinite alternate;
 }
 
 /* COUNTDOWN */
-.countdown{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    margin-top:25px;
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
-.countdown div{
-    background:rgba(0,0,0,0.5);
-    padding:15px 20px;
-    border-radius:10px;
-    border:1px solid cyan;
-    box-shadow:0 0 10px cyan;
+.countdown div {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid cyan;
+  box-shadow: 0 0 8px cyan;
+  min-width: 70px;
 }
 
-.countdown h3{
-    font-size:28px;
-    color:#00ffff;
+.countdown h3 {
+  font-size: clamp(18px, 5vw, 28px);
+  color: #00ffff;
 }
 
-.countdown span{
-    font-size:14px;
-    color:#ccc;
+.countdown span {
+  font-size: clamp(10px, 2.5vw, 14px);
+  color: #ccc;
 }
 
 /* EVENT LIVE */
-.event-live{
-    margin:30px auto;
-    padding:25px;
-    max-width:500px;
-    background:rgba(0,0,0,0.6);
-    border:1px solid cyan;
-    border-radius:12px;
-    text-align:center;
-    box-shadow:0 0 20px cyan;
+.event-live {
+  margin: 25px auto;
+  padding: 18px;
+  max-width: 90%;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid cyan;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 15px cyan;
 }
 
-.event-live h2{
-    color:cyan;
-    font-size:30px;
-    animation:blink 1.2s infinite alternate;
+.event-live h2 {
+  color: cyan;
+  font-size: clamp(20px, 5vw, 30px);
+  animation: blink 1.2s infinite alternate;
 }
 
-.event-live p{
-    color:#e0ffff;
+.event-live p {
+  color: #e0ffff;
+  font-size: clamp(14px, 3vw, 16px);
 }
 
-/* LOGO */
-.college-logo{
-    width:90px;
-    height:90px;
-    border-radius:50%;
-    border:2px solid cyan;
-    box-shadow:0 0 20px cyan;
+/* BLINK ANIMATION */
+@keyframes blink {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-/* BLINK */
-@keyframes blink{
-    from{opacity:0.6;}
-    to{opacity:1;}
+/* ========================= */
+/* EXTRA MOBILE TWEAKS */
+/* ========================= */
+
+@media (max-width: 480px) {
+  .hero {
+    margin-top: 40px;
+  }
+
+  .college-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .countdown {
+    gap: 8px;
+  }
+
+  .countdown div {
+    padding: 10px;
+    min-width: 60px;
+  }
 }
